@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/principal"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".125"
+        android:orientation="horizontal"
+        android:id="@+id/secund1"
+       >
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:background="@color/a1"
+                android:layout_width="0sp"
+                android:text="@color/a1"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textAlignment="viewEnd"
+                android:gravity="bottom"
+                android:paddingRight="4sp"
+                 app:autoSizeTextType="uniform"
+                app:autoSizePresetSizes="@array/autosize_text_sizes"
+                tools:ignore="RtlCompat">
+
+
+            </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/a2"
+            android:text="@color/a2"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/a3"
+            android:text="@color/a3"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/a4"
+            android:text="@color/a4"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".125"
+        android:id="@+id/secund2"
+
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@color/b1"
+            android:layout_width="0sp"
+            android:text="@color/b1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/b2"
+            android:text="@color/b2"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/b3"
+            android:text="@color/b3"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/b4"
+            android:text="@color/b4"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".125"
+        android:id="@+id/secund3"
+
+        >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@color/c1"
+            android:layout_width="0sp"
+            android:text="@color/c1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/c2"
+            android:text="@color/c2"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/c3"
+            android:text="@color/c3"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/c4"
+            android:text="@color/c4"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".125"
+        android:id="@+id/secund4"
+        android:background="@color/purple_500"
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@color/d1"
+            android:layout_width="0sp"
+            android:text="@color/d1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/d2"
+            android:text="@color/d2"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/d3"
+            android:text="@color/d3"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/d4"
+            android:text="@color/d4"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".125"
+        android:id="@+id/secund5"
+
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@color/e1"
+            android:layout_width="0sp"
+            android:text="@color/e1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/e2"
+            android:text="@color/e2"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/e3"
+            android:text="@color/e3"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/e4"
+            android:text="@color/e4"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".125"
+        android:id="@+id/secund6"
+
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@color/f1"
+            android:layout_width="0sp"
+            android:text="@color/f1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/f2"
+            android:text="@color/f2"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/f3"
+            android:text="@color/f3"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/f4"
+            android:text="@color/f4"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".125"
+        android:id="@+id/secund7"
+
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@color/g1"
+            android:layout_width="0sp"
+            android:text="@color/g1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/g2"
+            android:text="@color/g2"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/g3"
+            android:text="@color/g3"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/g4"
+            android:text="@color/g4"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".125"
+        android:id="@+id/secund8"
+
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@color/h1"
+            android:layout_width="0sp"
+            android:text="@color/h1"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/h2"
+            android:text="@color/h2"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/h3"
+            android:text="@color/h3"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+        <TextView
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/h4"
+            android:text="@color/h4"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            android:paddingRight="4sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>

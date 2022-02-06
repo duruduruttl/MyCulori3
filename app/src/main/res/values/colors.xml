@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- culori aduse de program -->
+
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- un stil de culoare stil A -->
+    <color name="a1">#d72631</color>
+    <color name="a2">#a2d5c6</color>
+    <color name="a3">#077b8a</color>
+    <color name="a4">#5c3c92</color>
+
+    <!-- un stil de culoare stil B -->
+    <color name="b1">#e2d810</color>
+    <color name="b2">#d9138a</color>
+    <color name="b3">#12a4d9</color>
+    <color name="b4">#322e2f</color>
+
+    <!-- un stil de culoare stil C -->
+    <color name="c1">#cf1578</color>
+    <color name="c2">#e8d21d</color>
+    <color name="c3">#039fbe</color>
+    <color name="c4">#b20238</color>
+
+    <!-- un stil de culoare stil D -->
+    <color name="d1">#e75874</color>
+    <color name="d2">#be1558</color>
+    <color name="d3">#fbcbc9</color>
+    <color name="d4">#322514</color>
+
+    <!-- un stil de culoare stil E -->
+    <color name="e1">#1e3d59</color>
+    <color name="e2">#f5f0e1</color>
+    <color name="e3">#ff6e40</color>
+    <color name="e4">#ffc13b</color>
+
+    <!-- un stil de culoare stil F -->
+    <color name="f1">#edca82</color>
+    <color name="f2">#097770</color>
+    <color name="f3">#e0cdbe</color>
+    <color name="f4">#a9c0a6</color>
+
+    <!-- un stil de culoare stil G -->
+    <color name="g1">#53051d</color>
+    <color name="g2">#9e1c5c</color>
+    <color name="g3">#ff8c94</color>
+    <color name="g4">#f12761</color>
+
+    <!-- un stil de culoare stil H -->
+    <color name="h1">#96e5e2</color>
+    <color name="h2">#00aca5</color>
+    <color name="h3">#006f60</color>
+    <color name="h4">#005245</color>
+
+
+</resources>
